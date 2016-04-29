@@ -8,5 +8,5 @@ Shootr is the new social messaging: brand new mobile system that combines the be
 
 ### Contact us
 
-www.shootr.com
-[developer@shootr.com](developer@shootr.com)
+[www.shootr.com](http://www.shootr.com)
+[developer@shootr.com](mailto:developer@shootr.com)
