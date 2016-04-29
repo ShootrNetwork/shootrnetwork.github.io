@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Shootr is the new social messaging: brand new mobile system that combines the best of instant messaging and social networking. Available in 151 countries and 7 languages.
 
-### More Information
+### Contact us
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+www.shootr.com
+[developer@shootr.com](developer@shootr.com)
