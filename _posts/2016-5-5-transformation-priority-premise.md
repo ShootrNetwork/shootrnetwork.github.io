@@ -278,9 +278,7 @@ if (number >= 1) {
 }
 {% endhighlight %}
 
-**Author**
-
-[Arturo Jiménez](https://github.com/artjimlop)
+**Author**: [Arturo Jiménez](https://github.com/artjimlop)
 
 **Links**
 
