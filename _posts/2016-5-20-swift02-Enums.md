@@ -61,14 +61,14 @@ but we can also make them implicit
 
 > Villain = "Villain", Hero = "Hero"
 
-The use for any of this enums will be like,
+The use for any of these enums will be like,
 
 {% highlight swift %}
     let supermanLevel = Level.Superhero.rawValue
     let supermanType = Faction.Hero.rawValue
 {% endhighlight %}
 
-Keep in mind that accessing rawValue will return an optional, as the value may not exist. That may happens if we have,
+Keep in mind that accessing rawValue will return an optional, as the rawValue may not exist. That may happen if we have,
 
 {% highlight swift %}
     let supermanLevel = Level(rawValue: 15)
@@ -76,7 +76,7 @@ Keep in mind that accessing rawValue will return an optional, as the value may n
 
 Will see how to access values in a cleaner way later.
 
-As you can guess, having enums defined like above is not very useful for creating usefull heroes. So make use of the nested enums to fix it.
+As you can guess, having enums defined like above are not very useful for creating usefull heroes. So make use of the nested enums to fix it.
 
 ## Nested enums
 
@@ -131,7 +131,7 @@ This is a little cleaner, but we can do better.
 
 ## Enums in structs
 
-One step further, let's put our enum inside a struct so we can have a really usefull objects.
+One step further, let's put our enum inside a struct so we can have a really usefull object.
 
 {% highlight swift %}
 	struct Character {
@@ -161,7 +161,7 @@ One step further, let's put our enum inside a struct so we can have a really use
 {% endhighlight %}
 
 And use it,
-(remember that Swift structs provide us of default init if we do not write one)
+(remember that Swift structs provide us with a default init if we do not write one)
 
 {% highlight swift %}
     let superman = Character(type: .Hero, power: .Mutant, level: .Superhero)
