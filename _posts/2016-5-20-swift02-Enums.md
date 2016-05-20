@@ -11,7 +11,7 @@ In his simplest form, Swift enums are just the same as we are used to in Objecti
     	case Apprentice
     	case Master
     	case Superhero
-	}
+}
 {% endhighlight %}
 
 
@@ -32,14 +32,14 @@ We can make enum values explicit
     	case Apprentice = 2
     	case Master = 3
     	case Superhero = 4
-	}
+}
 {% endhighlight %}
 
 {% highlight swift %}
     enum Faction: String {
     	case Villain = "The bad boys"
     	case Hero = "The good ones"
-	}
+}
 {% endhighlight %}
 
 but we can also make them implicit
